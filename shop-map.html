@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+
+<!-- Mirrored from androthemes.com/themes/html/melux/shop-map.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Apr 2022 16:19:21 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Melux - Jewelry  Shop HTML5 Template </title>
+
+  <!-- Vendor Stylesheets -->
+  <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+  <link rel="stylesheet" href="assets/css/plugins/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/plugins/slick.css">
+  <link rel="stylesheet" href="assets/css/plugins/slick-theme.css">
+  <link rel="stylesheet" href="assets/css/plugins/select2.min.css">
+
+  <!-- Icon Fonts -->
+  <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+  <link rel="stylesheet" href="assets/fonts/font-awesome/font-awesome.min.css">
+
+  <!-- Map Stylesheet -->
+  <link href="assets/css/plugins/mapbox-gl.min.css" rel="stylesheet" />
+
+  <!-- Mini Style sheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+
+</head>
+
+<body>
+
+  <!-- Preloader Start -->
+  <div class="acr-preloader">
+    <div class="acr-preloader-inner">
+      <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+  </div>
+  <!-- Preloader End -->
+
+  <!-- Aside (Mobile Navigation) -->
+  <aside class="main-aside">
+     <div class="aside-title">
+        <div class="aside-controls aside-trigger">
+           <h4>Jewelry</h4>
+           <div class="close-btn close-dark">
+              <span></span>
+              <span></span>
+           </div>
+        </div>
+     </div>
+     <div class="aside-scroll">
+        <ul>
+           <!-- Pages Start -->
+           <li class="menu-section-title">Pages</li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#"> Home Pages</a>
+              <ul class="submenu">
+            <li class="menu-item"> <a href="index-2.html">Home v1</a> </li>
+            <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+            <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+              </ul>
+           </li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#">Shop</a>
+              <ul class="submenu">
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#">Shop</a>
+                    <ul class="submenu">
+                       <li class="menu-item">
+                          <a href="shop-list-v1.html">Grid View</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="shop-list-v1.html">List v1</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="shop-list-v2.html">List v2</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="shop-map.html">Shop Map</a>
+                       </li>
+                    </ul>
+                 </li>
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#">Product Details</a>
+                    <ul class="submenu">
+                       <li class="menu-item">
+                          <a href="product-details-v1.html">Product Details v1</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="product-details-v2.html">Product Details v2</a>
+                       </li>
+                    </ul>
+                 </li>
+                 <li class="menu-item">
+                    <a href="cart.html">Cart</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="checkout.html">Checkout</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="wishlist.html">Wishlist</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="compare-products.html">Compare Products</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="submit-product.html">Submit Product</a>
+                 </li>
+              </ul>
+           </li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#">Pages</a>
+              <ul class="submenu">
+                 <li class="menu-item">
+                    <a href="about-us.html">About Us</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="contact-us.html">Contact Us</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="legal.html">Legal</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="faq.html">FAQ</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="coming-soon.html">Coming Soon</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="404.html">404</a>
+                 </li>
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#">Login</a>
+                    <ul class="submenu">
+                       <li class="menu-item">
+                          <a href="login-v1.html">Login v1</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="login-v2.html">Login v2</a>
+                       </li>
+                    </ul>
+                 </li>
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#">Register</a>
+                    <ul class="submenu">
+                       <li class="menu-item">
+                          <a href="register-v1.html">Register v1</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="register-v2.html">Register v2</a>
+                       </li>
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#">Blog</a>
+              <ul class="submenu">
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#">Blog Archive</a>
+                    <ul class="submenu">
+                       <li class="menu-item">
+                          <a href="blog-left-sidebar.html">Left Sidebar</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="blog-right-sidebar.html">Right Sidebar</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="blog-grid.html">Grid View</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="blog-list.html">List View</a>
+                       </li>
+                    </ul>
+                 </li>
+                 <li class="menu-item">
+                    <a href="blog-single.html">Blog Single</a>
+                 </li>
+              </ul>
+           </li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#">Portfolio</a>
+              <ul class="submenu">
+                 <li class="menu-item">
+                    <a href="project-v1.html">Portfolio v1</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="project-v2.html">Portfolio v2</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="project-v3.html">Portfolio v3</a>
+                 </li>
+              </ul>
+           </li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#">Team</a>
+              <ul class="submenu">
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#">Team Archive</a>
+                    <ul class="submenu">
+                       <li class="menu-item">
+                          <a href="team-archive-v1.html">Archive v1</a>
+                       </li>
+                       <li class="menu-item">
+                          <a href="team-archive-v2.html">Archive v2</a>
+                       </li>
+                    </ul>
+                 </li>
+                 <li class="menu-item">
+                    <a href="team-details.html">Team Detail</a>
+                 </li>
+              </ul>
+           </li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#">Services</a>
+              <ul class="submenu">
+                 <li class="menu-item">
+                    <a href="services-v1.html">Service v1</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="services-v2.html">Service v2</a>
+                 </li>
+              </ul>
+           </li>
+           <li class="menu-item menu-item-has-children">
+              <a href="#">User</a>
+              <ul class="submenu">
+                 <li class="menu-item">
+                    <a href="profile.html">My Account</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="profile-orders.html">My Orders</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="profile-products.html">My Products</a>
+                 </li>
+                 <li class="menu-item">
+                    <a href="profile-saved-products.html">Saved Products</a>
+                 </li>
+              </ul>
+           </li>
+           <!-- Pages End -->
+           <!-- Social Media Start -->
+           <li class="menu-section-title">Get Social</li>
+           <li class="menu-item"> <a href="#"> <i class="flaticon-facebook"></i>Facebook</a> </li>
+           <li class="menu-item"> <a href="#"> <i class="flaticon-linkedin"></i> Linkedin </a> </li>
+           <li class="menu-item"> <a href="#"> <i class="flaticon-twitter"></i> Twitter </a> </li>
+           <li class="menu-item"> <a href="#"> <i class="flaticon-instagram"></i> Instagram </a> </li>
+           <!-- Social Media End -->
+        </ul>
+     </div>
+  </aside>
+  <div class="aside-overlay aside-trigger"></div>
+
+  <!-- Header Start -->
+  <header class="main-header">
+
+    <!-- Top Header Start -->
+    <div class="top-header">
+      <div class="container">
+        <div class="top-header-inner">
+
+          <ul class="social-media">
+            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-pinterest-p"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-linkedin-in"></i> </a> </li>
+            <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+          </ul>
+
+          <ul class="top-header-nav">
+            <li> <a href="login-v1.html"> Login</a> </li>
+            <li>or</li>
+            <li> <a href="register-v1.html"> Signup</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Top Header End -->
+
+    <nav class="navbar">
+
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index-2.html"> <img src="assets/img/logo.png" alt="logo"> </a>
+        <!-- Jewelry -->
+        <ul class="navbar-nav">
+          <!-- Pages Start -->
+          <li class="menu-item menu-item-has-children">
+            <a href="#"> Home Pages</a>
+            <ul class="submenu">
+              <li class="menu-item"> <a href="index-2.html">Home v1</a> </li>
+              <li class="menu-item"> <a href="home-v2.html">Home v2</a> </li>
+              <li class="menu-item"> <a href="home-v3.html">Home v3</a> </li>
+              
+            </ul>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#">Shop</a>
+            <ul class="submenu">
+              <li class="menu-item menu-item-has-children">
+                <a href="#">Shop</a>
+                <ul class="submenu">
+                  <li class="menu-item">
+                    <a href="shop-list-v1.html">Grid View</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="shop-list-v1.html">List v1</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="shop-list-v2.html">List v2</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="shop-map.html">Shop Map</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#">Product Details</a>
+                <ul class="submenu">
+                  <li class="menu-item">
+                    <a href="product-details-v1.html">Product Details v1</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="product-details-v2.html">Product Details v2</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="cart.html">Cart</a>
+              </li>
+              <li class="menu-item">
+                <a href="checkout.html">Checkout</a>
+              </li>
+              <li class="menu-item">
+                <a href="wishlist.html">Wishlist</a>
+              </li>
+              <li class="menu-item">
+                <a href="compare-products.html">Compare Products</a>
+              </li>
+              <li class="menu-item">
+                <a href="submit-product.html">Submit Product</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#">Pages</a>
+            <ul class="submenu">
+              <li class="menu-item">
+                <a href="about-us.html">About Us</a>
+              </li>
+              <li class="menu-item">
+                <a href="contact-us.html">Contact Us</a>
+              </li>
+              <li class="menu-item">
+                <a href="legal.html">Legal</a>
+              </li>
+              <li class="menu-item">
+                <a href="faq.html">FAQ</a>
+              </li>
+              <li class="menu-item">
+                <a href="coming-soon.html">Coming Soon</a>
+              </li>
+              <li class="menu-item">
+                <a href="404.html">404</a>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#">Login</a>
+                <ul class="submenu">
+                  <li class="menu-item">
+                    <a href="login-v1.html">Login v1</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="login-v2.html">Login v2</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item menu-item-has-children">
+                <a href="#">Register</a>
+                <ul class="submenu">
+                  <li class="menu-item">
+                    <a href="register-v1.html">Register v1</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="register-v2.html">Register v2</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#">Blog</a>
+            <ul class="submenu">
+              <li class="menu-item menu-item-has-children">
+                <a href="#">Blog Archive</a>
+                <ul class="submenu">
+                  <li class="menu-item">
+                    <a href="blog-left-sidebar.html">Left Sidebar</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog-right-sidebar.html">Right Sidebar</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog-grid.html">Grid View</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="blog-list.html">List View</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="blog-single.html">Blog Single</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#">Portfolio</a>
+            <ul class="submenu">
+              <li class="menu-item">
+                <a href="project-v1.html">Portfolio v1</a>
+              </li>
+              <li class="menu-item">
+                <a href="project-v2.html">Portfolio v2</a>
+              </li>
+              <li class="menu-item">
+                <a href="project-v3.html">Portfolio v3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#">Team</a>
+            <ul class="submenu">
+              <li class="menu-item menu-item-has-children">
+                <a href="#">Team Archive</a>
+                <ul class="submenu">
+                  <li class="menu-item">
+                    <a href="team-archive-v1.html">Archive v1</a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="team-archive-v2.html">Archive v2</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-item">
+                <a href="team-details.html">Team Detail</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#">Services</a>
+            <ul class="submenu">
+              <li class="menu-item">
+                <a href="services-v1.html">Service v1</a>
+              </li>
+              <li class="menu-item">
+                <a href="services-v2.html">Service v2</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item menu-item-has-children">
+            <a href="#">User</a>
+            <ul class="submenu">
+              <li class="menu-item">
+                <a href="profile.html">My Account</a>
+              </li>
+              <li class="menu-item">
+                <a href="profile-orders.html">My Orders</a>
+              </li>
+              <li class="menu-item">
+                <a href="profile-products.html">My Products</a>
+              </li>
+              <li class="menu-item">
+                <a href="profile-saved-products.html">Saved Products</a>
+              </li>
+            </ul>
+          </li>
+          <!-- Pages End -->
+        </ul>
+
+        <div class="header-controls">
+          <ul class="header-controls-inner d-none d-lg-flex">
+            <li>
+              <a href="shop-list-v1.html" class="btn-custom primary">Shop now</a>
+            </li>
+          </ul>
+          <!-- Toggler -->
+          <div class="aside-toggler aside-trigger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+  <!-- Header End -->
+
+  <div class="product-map-wrapper">
+
+    <!-- Jewelry    Start -->
+    <div class="product-main-wrapper">
+
+      <!-- Filter Start -->
+      <div class="acr-filter-form">
+        <div class="acr-filter-form-header">
+          <h4>Filter</h4>
+          <div class="close-btn close-dark filter-trigger">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <form method="post">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <div class="form-group acr-custom-select">
+                <label>Location: </label>
+                <select class="acr-select2" name="location">
+                  <option value="" label="Location"></option>
+                  <option value="*">Any Location</option>
+                  <option value="California, CA">California, CA</option>
+                  <option value="Lawndale, CA">Lawndale, CA</option>
+                  <option value="Stroudsburg, PA">Stroudsburg, PA</option>
+                  <option selected value="West Roxbury, MA">West Roxbury, MA</option>
+                  <option value="Ponte Vedra Beach, FL">Ponte Vedra Beach, FL</option>
+                  <option value="Fort Worth, TX">Fort Worth, TX</option>
+                  <option value="Willingboro, NJ">Willingboro, NJ</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="form-group acr-custom-select">
+                <label>Status: </label>
+                <select class="acr-select2" name="status">
+                  <option value="" label="Status"></option>
+                  <option selected value="*">Any Status</option>
+                  <option value="Jewelry">Jewelry</option>
+                  <option value="Featured">Featured</option>
+                  <option value="Womens Jewelry">Womens Jewelry</option>
+                  <option value="New Arrival ">New Arrival </option>
+                  <option value="New Addition">New Addition</option>
+                  <option value="Red Jewelry ">Red Jewelry </option>
+                  <option value="On Sale ">On Sale </option>
+                  <option value="Rings">Rings</option>
+                  <option value="Special Offer">Special Offer</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="form-group acr-custom-select">
+                <label>Price Range: </label>
+                <select class="acr-select2" name="price">
+                  <option value="" label="Price Range"></option>
+                  <option selected value="*">Any Range</option>
+                  <option value="$1 - $2">$60k - $80k</option>
+                  <option value="$80k - $100k">$2 - $10</option>
+                  <option value="$100k - $120k">$100k - $120k</option>
+                  <option value="$120k - $140k">$120k - $140k</option>
+                  <option value="$140k - $160k">$140k - $160k</option>
+                  <option value="$160k - $180k">$160k - $180k</option>
+                  <option value="$180k - $200k">$180k - $200k</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="acr-custom-select form-group">
+                <label>Price : </label>
+                <select class="acr-select2" name="beds">
+                  <option value="" label="Price "></option>
+                  <option selected value="*">Any amount</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5+">5+</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="acr-custom-select form-group">
+                <label>Square Scacco Diamond Ring</label>
+                <select class="acr-select2" name="baths">
+                  <option value="" label="Bathrooms"></option>
+                  <option selected value="*">Any amount</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5+">5+</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="acr-custom-select form-group">
+                <label>Type: </label>
+                <select class="acr-select2" name="type">
+                  <option value="" label="Type"></option>
+                  <option selected value="*">Any Type</option>
+                  <option value="Womens Jewelry ">Womens Jewelry </option>
+                  <option value="Jewelry">Jewelry</option>
+                  <option value="Square Scacco Diamond Ring">Square Scacco Diamond Ring</option>
+                  <option value="Scacco Diamond Ring">Scacco Diamond Ring</option>
+                  <option value=" Scacco Diamond Ring"> Scacco Diamond Ring</option>
+                  <option value="Square Scacco Diamond Ring">Square Scacco Diamond Ring</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="acr-custom-select form-group">
+                <label>Diameter: </label>
+                <select class="acr-select2" name="diameter">
+                  <option value="" label="Diameter"></option>
+                  <option selected value="*">Any Range</option>
+                  <option value="Within 2 miles">Within 2 miles</option>
+                  <option value="Within 4 miles">Within 4 miles</option>
+                  <option value="Within 6 miles">Within 6 miles</option>
+                  <option value="Within 8 miles">Within 8 miles</option>
+                  <option value="Within 10 miles">Within 10 miles</option>
+                  <option value="Within 12 miles">Within 12 miles</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="acr-custom-select form-group">
+                <label>Floor: </label>
+                <select class="acr-select2" name="floor">
+                  <option value="" label="Floor"></option>
+                  <option selected value="*">Any floor</option>
+                  <option value="1st">1st</option>
+                  <option value="2nd">2nd</option>
+                  <option value="3rd">3rd</option>
+                  <option value="4th">4th</option>
+                  <option value="5th">5th</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="acr-custom-select form-group">
+                <label>Sort by: </label>
+                <select class="acr-select2" name="sort">
+                  <option value="" label="Sort by"></option>
+                  <option selected value="*">Any</option>
+                  <option value="Top Selling">Top Selling</option>
+                  <option value="Most Popular">Most Popular</option>
+                  <option value="Price: High - Low">Price: High - Low</option>
+                  <option value="Price: Low - High">Price: Low - High</option>
+                  <option value="Number of baths">Number of baths</option>
+                  <option value="Number of beds">Number of beds</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="text-right">
+            <button type="button" class="filter-trigger btn-custom" name="button">Apply filters</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="acr-product-filter-wrapper">
+        <div class="row">
+          <div class="col-lg-6 form-group">
+            <div class="search-wrapper">
+              <input type="text" class="form-control" placeholder="Search locations" name="search" value="">
+              <button type="submit" class="btn-custom" name="button"><i class="far fa-search"></i></button>
+            </div>
+          </div>
+          <div class="col-lg-6 form-group text-right">
+            <button type="button" class="btn-custom-2 light-grey filter-trigger" name="button">Advanced Search</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter End -->
+
+      <div class="row">
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/1.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge featured"> <i class="fas fa-star"></i> </span>
+                <span class="product-badge stock"> Out of Stock</span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.038659" data-lng="38.931567"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Blue Blast">Scacco Diamond Ring</a> </h5>
+              <span class="product-price">3,500$ <span>4,200$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/2.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge featured"> <i class="fas fa-star"></i> </span>
+                <span class="product-badge sale"> On Sale</span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.003168" data-lng="38.894651"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Scacco Diamond Ring"> Scacco Diamond Ring</a> </h5>
+              <span class="product-price">2$ <span>3$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/3.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge stock"> Out of Stock</span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.052477" data-lng="38.943951"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Blue Blast">Scacco Diamond Ring</a> </h5>
+              <span class="product-price">3,500$ <span>4,200$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/4.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge sale">On Sale</span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.090372" data-lng="38.881189"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Blue Blast">Scacco Diamond Ring</a> </h5>
+              <span class="product-price">3,500$ <span>4,000$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/5.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge sale"> On Sale</span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.043444" data-lng="38.909664"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Blue Blast">Scacco Diamond Ring</a> </h5>
+              <span class="product-price">3,500$ <span>4,200$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/1.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge rent"> On Sale </span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.111561" data-lng="38.882342"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Blue Blast">Scacco Diamond Ring</a> </h5>
+              <span class="product-price">4,600$ <span>5,200$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/6.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge featured"> <i class="fas fa-star"></i> </span>
+                <span class="product-badge stock"> Out of Stock</span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.031706" data-lng="38.914581"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Blue Blast">Scacco Diamond Ring</a> </h5>
+              <span class="product-price">3,500$ <span>4,200$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+        <!-- Product Start -->
+        <div class="col-md-6 col-sm-6">
+          <div class="product">
+            <div class="product-thumbnail">
+              <a href="product-details-v1.html"><img src="assets/img/products/7.jpg" alt="product"></a>
+              <div class="product-badges">
+                <span class="product-badge featured"> <i class="fas fa-star"></i> </span>
+                <span class="product-badge sale"> On Sale</span>
+              </div>
+              <div class="product-controls">
+                <a href="#" class="favorite"><i class="far fa-heart"></i></a>
+                <a href="#" class="compare"><i class="fas fa-sync-alt"></i></a>
+                <a href="#" class="fly-to-location" data-lat="-77.020945" data-lng="38.878241"><i class="fas fa-map-marker-alt"></i></a>
+              </div>
+            </div>
+            <div class="product-body">
+              <h5 class="product-title"> <a href="product-details-v1.html" title="Scacco Diamond Ring"> Scacco Diamond Ring</a> </h5>
+              <span class="product-price">2,300$ <span>2,800$</span> </span>
+              <p class="product-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <div class="product-gallery-wrapper">
+                <a href="product-details-v1.html" class="btn-custom btn-sm secondary">Add to Cart</a>
+                <a href="#" data-toggle="tooltip" title="Gallery" class="product-gallery"> <i class="fas fa-camera"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Product End -->
+
+      </div>
+    </div>
+    <!-- Jewelry    End -->
+
+    <!-- Map Start -->
+    <div class="product-map">
+      <div id="map"></div>
+    </div>
+    <!-- Map End -->
+
+  </div>
+
+  <!-- Vendor Scripts -->
+  <script src="assets/js/plugins/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/plugins/popper.min.js"></script>
+  <script src="assets/js/plugins/waypoint.js"></script>
+  <script src="assets/js/plugins/bootstrap.min.js"></script>
+  <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/plugins/jquery.slimScroll.min.js"></script>
+  <script src="assets/js/plugins/imagesloaded.min.js"></script>
+  <script src="assets/js/plugins/jquery.steps.min.js"></script>
+  <script src="assets/js/plugins/jquery.countdown.min.js"></script>
+  <script src="assets/js/plugins/isotope.pkgd.min.js"></script>
+  <script src="assets/js/plugins/slick.min.js"></script>
+  <script src="assets/js/plugins/select2.min.js"></script>
+  <script src="assets/js/plugins/jquery.zoom.min.js"></script>
+
+  <!-- Mini Scripts -->
+  <script src="assets/js/main.js"></script>
+
+  <!-- Map Scripts -->
+  <script src="assets/js/plugins/mapbox-gl.min.js"></script>
+  <script src="assets/js/mapdata.js"></script>
+  <script src="assets/js/map.js"></script>
+
+</body>
+
+
+<!-- Mirrored from androthemes.com/themes/html/melux/shop-map.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 25 Apr 2022 16:19:26 GMT -->
+</html>
